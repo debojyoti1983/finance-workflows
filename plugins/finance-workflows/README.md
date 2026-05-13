@@ -1,6 +1,16 @@
-# Finance Workflows — Claude Code Plugin
+# Finance Workflows — Claude Code Skills
 
-A Claude Code plugin with skills for the Personal Finance Tracker app.
+Skills for the Personal Finance Tracker app.
+
+## Install
+
+Run this in PowerShell:
+
+```powershell
+irm https://raw.githubusercontent.com/debojyoti1983/finance-workflows/master/install.ps1 | iex
+```
+
+Restart Claude Code after installing.
 
 ## Skills
 
@@ -13,13 +23,6 @@ Guides you through adding and managing credit card transactions in the Finance T
 Step-by-step installation and setup guide for the Finance Tracker app on Windows.
 
 **Triggers when you say:** "set up finance tracker", "how to run finance tracker", "install finance tracker"
-
-## Installation
-
-In Claude Code, run:
-```
-/plugin install github:debojyoti1983/finance-workflows
-```
 
 ## Author
 
